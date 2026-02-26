@@ -1,0 +1,88 @@
+/* header */
+.top-bar {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  height: var(--header-height);
+  background: var(--header-gradient-bg);
+  color: var(--header-text-color);
+}
+
+.top-bar .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1200px;
+  padding: 0 1.2rem;
+  margin: 0 auto;
+}
+
+/* div branding */
+.branding a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.branding .brand-icon {
+  background-color: transparent;
+  height: 2.5rem;
+  width: auto;
+}
+
+.branding .brand-name {
+  color: var(--header-logo-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Times New Roman";
+  margin-left: 0.5rem;
+}
+
+/* nav tabs */
+.tabs {
+  flex-grow: 1;
+}
+
+.tabs .tab-list {
+   display: flex;
+   justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ .tab-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--header-tabs-color);
+}
+
+.tabs .tab-icon {
+  margin-right: 0.5rem;
+}
+
+.tabs .tab-list .tab-item span {
+  font-family: "Times New Roman";
+}
+
+@media (max-width: 650px) {
+  .tab-item span { display: none; } 
+}
+
+/* div auth-actions */
+.auth-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login, .signup {
+    color: var(--auth-color);
+    text-decoration: none;
+}
+
+
