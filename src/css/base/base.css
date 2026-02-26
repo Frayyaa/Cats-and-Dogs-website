@@ -1,0 +1,59 @@
+:root {
+
+    /* brand colors */
+    --color-bg: #f9f9f9;
+    --color-text: #333;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-muted: #adb5bd;
+
+
+
+    /* neutral colors */
+
+
+
+
+    /* feedback colors */
+    --auth-color: #ffffff;
+    /* header colors */
+    --header-gradient-bg: linear-gradient(120deg, #10005a, #30008f);
+    --header-height: 3.5rem;
+    --header-text-color: #fff;
+    --header-tabs-color: #fff;
+    --header-logo-color: #ffffff;
+    --header-logo-icon-color: #000000;
+
+/* header sizes */
+--header-height: 80px;
+    /* spaces */
+    --space-md: 1rem;
+    --z-header: 1000;
+
+    /* Hero banner */
+    --hero-banner-background-color: #ECE5DE;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+
